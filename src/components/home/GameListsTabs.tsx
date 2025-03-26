@@ -104,11 +104,11 @@ const GameListTabs = () => {
   return (
     <div className="relative w-full max-w-5xl mx-auto rounded-md overflow-hidden flex flex-col mt-4">
       {/* Tabs */}
-      <div className="flex bg-[#1f2937] text-white p-2 rounded-md">
+      <div className="flex bg-[#1f2937] text-white p-0 rounded-md">
         {Object.keys(gameCategories).map((category) => (
           <button
             key={category}
-            className={`px-4 py-2 text-sm font-semibold rounded-md ${
+            className={`px-1 py- text-sm font-semibold rounded-md ${
               activeTab === category ? "bg-blue-500" : "hover:bg-gray-700"
             }`}
             onClick={() => setActiveTab(category)}
@@ -119,31 +119,31 @@ const GameListTabs = () => {
       </div>
 
       {/* Content */}
-      <div className="flex mt-4">
+      <div className="flex flex-col md:flex-row mt-4">
         {/* Left Side - Game List */}
-        <div className="w-full bg-[#263544] sm:2/3 p-4">
+        <div className="w-full md:w-2/3 bg-[#263544] p-4">
           <div className="space-y-1">
             {games.length > 0 ? (
               games.map((game:any) => (
-                <div key={game.id} className="flex items-center border-b p-2">
+                <div key={game.id} className="flex flex-col sm:flex-row items-center sm:items-start border-b p-2">
                   {/* Game Image */}
                   <img
                     src={game.image}
                     alt={game.title}
-                    className="w-20 h-12 rounded-md"
+                    className="w-24 h-16 rounded-md"
                   />
                   {/* Game Details */}
-                  <div className="ml-4 flex-1">
+                  <div className="sm:ml-4 flex-1 text-center sm:text-left">
                     <h3 className="text-white text-md font-medium">
                       {game.title}
                     </h3>
                     <p className="text-gray-400 text-xs">{game.description}</p>
                     {/* OS Icons */}
-                    <div className="flex gap-2 mt-1 text-gray-300">
+                    <div className="flex justify-center sm:justify-start gap-2 mt-1 text-gray-300">
                       {game.os}
                     </div>
                     {/* Tags */}
-                    <div className="flex gap-2 mt-1">
+                    <div className="flex justify-center sm:justify-start gap-2 mt-1 flex-wrap">
                       {game.tags.map((tag:any, index:number) => (
                         <span
                           key={index}
@@ -157,7 +157,7 @@ const GameListTabs = () => {
                   {/* Price & Discount */}
                   {game.newPrice !== "Free" &&
                     activeTab !== "Popular Upcoming" && (
-                      <span className="bg-green-500 text-black font-bold px-2 py-1 text-xs rounded-md">
+                      <span className="bg-green-500 text-black font-bold px-2 py-1 my-2 text-xs rounded-md">
                         {game.discount}
                       </span>
                     )}
@@ -181,9 +181,9 @@ const GameListTabs = () => {
               <p className="text-gray-400 text-center">No games available</p>
             )}
           </div>
-          <button className="mt-4 bottom-2 flex relative  text-white text-sm font-semibold py-2  items-center ">
+          <button className="mt-4 flex justify-center sm:justify-start text-white text-sm font-semibold py-2 items-center ">
             See More:{" "}
-            <p className=" ml-2  border-[1px] border-gray-400 p-1 rounded-md hover:border-white">
+            <p className=" ml-2 border-[1px] border-gray-400 p-1 rounded-md hover:border-white">
               {activeTab}
             </p>
           </button>

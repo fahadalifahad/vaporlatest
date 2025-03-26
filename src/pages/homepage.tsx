@@ -19,7 +19,7 @@ const Homepage = () => {
       <TopNavbar />
 
       {/* Main Content */}
-      <div className="flex-1 overflow-y-auto p-4 mt-10">
+      <div className="flex-1 overflow-y-auto p-2 mt-10">
         <HeroContent />
         <SpecialOffers />
 
@@ -31,7 +31,7 @@ const Homepage = () => {
           </div>
 
           {/* Main Sections */}
-          <div className="lg:w-3/4 w-full pl-4">
+          <div className="lg:w-3/4 w-full md:pl-2 p-0">
             <FeatureRecommendation />
             <FuteureGameShow />
             <Categories />

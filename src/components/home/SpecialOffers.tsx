@@ -25,7 +25,7 @@ const offers = [
 
 const SpecialOffers: React.FC = () => {
   return (
-    <section className="p-6 bg-[#131414] text-white mt-8">
+    <section className="p-2 bg-[#131414] text-white mt-8">
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-xl font-bold">Special Offers</h2>
         <a
@@ -46,7 +46,7 @@ const SpecialOffers: React.FC = () => {
             <img
               src={offer.image}
               alt="Offer"
-              className="w-full h-64 object-cover opacity-70"
+              className="w-full h-44 object-cover opacity-70"
             />
             {/* Discount Badge */}
             <span className="absolute top-2 right-2 bg-blue-500 text-white text-xs px-2 py-1 rounded">

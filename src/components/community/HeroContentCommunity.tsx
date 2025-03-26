@@ -12,7 +12,7 @@ const popularHubs = [
 
 const HeroContentCommunity = () => {
   return (
-    <div className=" w-full max-w-6xl mx-auto mt-10 text-white p-4">
+    <div className=" w-full max-w-6xl mx-auto mt-10 text-white p-1">
       <h1 className="text-3xl font-semibold">Community Activity</h1>
       <p className="text-gray-400 mt-1">Community and official content for all games and software on Steam.</p>
       
@@ -34,9 +34,9 @@ const HeroContentCommunity = () => {
         </div>
 
         {/* Right Side (Search Fields) */}
-        <div className="bg-[#2a475e] p-4 rounded-lg flex justify-between  md:flex-col space-y-4">
+        <div className="bg-[#2a475e] gap-2 p-2 rounded-lg flex justify-between  md:flex-col space-y-4">
           <div>
-            <h2 className="text-lg font-semibold mb-2">FIND HUBS</h2>
+            <h2 className="text-sm font-semibold mb-2">FIND HUBS</h2>
             <input 
               type="text" 
               placeholder="Search for products" 
@@ -45,7 +45,7 @@ const HeroContentCommunity = () => {
           </div>
           <hr className="border-gray-600" />
           <div>
-            <h2 className="text-lg font-semibold mb-2">FIND PEOPLE</h2>
+            <h2 className="text-sm font-semibold mb-2">FIND PEOPLE</h2>
             <input 
               type="text" 
               placeholder="Search for friends" 

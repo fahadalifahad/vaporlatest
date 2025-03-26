@@ -54,9 +54,9 @@ export default function UnderPrice() {
   return (
     <div className="relative w-full max-w-5xl mx-auto rounded-md overflow-hidden mt-6">
       <div className="flex justify-between items-center mb-4">
-        <h1 className="text-xl font-medium text-white">Under $10 USD</h1>
-        <div className="space-x-2">
-          <button className="border-[1px] border-gray-400 hover:border-white px-2 py-1 text-sm rounded-lg text-white">
+        <h1 className="text-lg font-medium text-white">Under $10 USD</h1>
+        <div className="space-x-1">
+          <button className="border-[1px] border-gray-400 hover:border-white px-1 py-1 text-sm rounded-lg text-white">
             UNDER $10 USD
           </button>
           <button className="border-[1px] border-gray-400 hover:border-white px-2 py-1 text-sm rounded-lg text-white">

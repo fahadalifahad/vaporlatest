@@ -35,7 +35,7 @@ const CommunityTab = () => {
   };
 
   return (
-    <div className=" w-full max-w-6xl mx-auto text-white p-2">
+    <div className=" w-full max-w-6xl mx-auto text-white p-1 mt-2">
       {/* Tabs for large screens */}
       <div className="hidden sm:flex border-b border-gray-500 space-x-4 overflow-x-auto">
         {tabs.map((tab) => (
