@@ -27,7 +27,7 @@ const SpecialOffers: React.FC = () => {
   return (
     <section className="p-2 bg-[#131414] text-white mt-8">
       <div className="flex justify-between items-center mb-4">
-        <h2 className="text-xl font-bold">Special Offers</h2>
+        <h2 className="text-xl font-medium">Special Offers</h2>
         <a
           href="#"
           className="text-blue-500 font-medium text-sm hover:underline"

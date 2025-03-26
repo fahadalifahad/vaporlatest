@@ -48,8 +48,8 @@ export default function FeatureRecommendation() {
 
   return (
     <>
-      <h1 className="text-white text-2xl font-medium mt-4 max-w-5xl mx-auto pb-4 text-center md:text-left">
-        FEATURED AND RECOMMENDED
+      <h1 className="text-white text-xl font-medium mt-4 max-w-5xl mx-auto pb-4 md:text-left">
+        FEATURED & RECOMMENDED
       </h1>
       <div className="relative w-full max-w-5xl mx-auto bg-[#1b2838] p-4 rounded-md overflow-hidden">
         <div className="flex flex-col md:flex-row">

@@ -54,7 +54,7 @@ export default function Categories() {
 
   return (
     <div className="relative w-full max-w-5xl mx-auto pt-6 px-1">
-      <h2 className="text-white text-xl mb-4 text-center md:text-left">
+      <h2 className="text-white text-xl mb-4 md:text-left">
         BROWSE BY CATEGORY
       </h2>
 

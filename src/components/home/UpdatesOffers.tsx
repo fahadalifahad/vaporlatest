@@ -1,7 +1,7 @@
 const UpdatesOffers = () => {
   return (
     <div className="relative w-full max-w-5xl mx-auto rounded-md overflow-hidden mt-2 px-2">
-      <h2 className="text-white text-xl font-semibold mb-4 text-center">UPDATES AND OFFERS</h2>
+      <h2 className="text-white text-xl font-semibold mb-4">UPDATES AND OFFERS</h2>
       <div className="flex flex-col sm:flex-row gap-4">
         {/* Left Section - Square Enix Sale */}
         <div className="bg-black p-4 flex flex-col relative w-full sm:w-1/2">
