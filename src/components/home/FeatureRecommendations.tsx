@@ -3,25 +3,25 @@ import { FaChevronLeft, FaChevronRight, FaWindows, FaApple, FaLinux } from "reac
 
 const slides = [
   {
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmttg1skZoFW3XsKi_lJb9BJe8hm6HvMgsyA&s",
+    image: "https://img.freepik.com/free-photo/view-3d-video-game-controller_23-2151005788.jpg?t=st=1743154935~exp=1743158535~hmac=e90d8e4bfe13243669cafb6de53268f0b5666ab0c11e52e7af640088448761aa&w=1380",
     title: "Cyber Legends",
     thumbnails: [
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmttg1skZoFW3XsKi_lJb9BJe8hm6HvMgsyA&s",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmttg1skZoFW3XsKi_lJb9BJe8hm6HvMgsyA&s",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmttg1skZoFW3XsKi_lJb9BJe8hm6HvMgsyA&s",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmttg1skZoFW3XsKi_lJb9BJe8hm6HvMgsyA&s",
+      "https://img.freepik.com/free-photo/view-3d-video-game-controller_23-2151005788.jpg?t=st=1743154935~exp=1743158535~hmac=e90d8e4bfe13243669cafb6de53268f0b5666ab0c11e52e7af640088448761aa&w=1380",
+      "https://img.freepik.com/free-photo/view-3d-video-game-controller_23-2151005788.jpg?t=st=1743154935~exp=1743158535~hmac=e90d8e4bfe13243669cafb6de53268f0b5666ab0c11e52e7af640088448761aa&w=1380",
+      "https://img.freepik.com/free-photo/view-3d-video-game-controller_23-2151005788.jpg?t=st=1743154935~exp=1743158535~hmac=e90d8e4bfe13243669cafb6de53268f0b5666ab0c11e52e7af640088448761aa&w=1380",
+      "https://img.freepik.com/free-photo/view-3d-video-game-controller_23-2151005788.jpg?t=st=1743154935~exp=1743158535~hmac=e90d8e4bfe13243669cafb6de53268f0b5666ab0c11e52e7af640088448761aa&w=1380",
     ],
     price: "$19.99",
     platforms: [<FaWindows />, <FaApple />],
   },
   {
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcc67rPkHyBTuSJXdclnCk2Wmvx4M3aL4xHw&s",
+    image: "https://img.freepik.com/free-photo/3d-workstation-with-computer-peripheral-devices_23-2150714209.jpg?t=st=1743155306~exp=1743158906~hmac=54732bc2a572e19b9ec1d500590cbf8abc7a5a30c0a7b9a2eabbf772e8d94599&w=826",
     title: "Fantasy Quest",
     thumbnails: [
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcc67rPkHyBTuSJXdclnCk2Wmvx4M3aL4xHw&s",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcc67rPkHyBTuSJXdclnCk2Wmvx4M3aL4xHw&s",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcc67rPkHyBTuSJXdclnCk2Wmvx4M3aL4xHw&s",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcc67rPkHyBTuSJXdclnCk2Wmvx4M3aL4xHw&s",
+      "https://img.freepik.com/free-photo/3d-workstation-with-computer-peripheral-devices_23-2150714209.jpg?t=st=1743155306~exp=1743158906~hmac=54732bc2a572e19b9ec1d500590cbf8abc7a5a30c0a7b9a2eabbf772e8d94599&w=826",
+      "https://img.freepik.com/free-photo/3d-workstation-with-computer-peripheral-devices_23-2150714209.jpg?t=st=1743155306~exp=1743158906~hmac=54732bc2a572e19b9ec1d500590cbf8abc7a5a30c0a7b9a2eabbf772e8d94599&w=826",
+      "https://img.freepik.com/free-photo/3d-workstation-with-computer-peripheral-devices_23-2150714209.jpg?t=st=1743155306~exp=1743158906~hmac=54732bc2a572e19b9ec1d500590cbf8abc7a5a30c0a7b9a2eabbf772e8d94599&w=826",
+      "https://img.freepik.com/free-photo/3d-workstation-with-computer-peripheral-devices_23-2150714209.jpg?t=st=1743155306~exp=1743158906~hmac=54732bc2a572e19b9ec1d500590cbf8abc7a5a30c0a7b9a2eabbf772e8d94599&w=826",
     ],
     price: "Free To Play",
     platforms: [<FaWindows />, <FaLinux />],

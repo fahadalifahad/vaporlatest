@@ -2,14 +2,14 @@ import { useState, useEffect } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const allGames = [
-  { image: "https://via.placeholder.com/300x150", title: "iRacing", price: "$5.49 USD" },
-  { image: "https://via.placeholder.com/300x150", title: "Stardew Valley", price: "$6.99 USD" },
-  { image: "https://via.placeholder.com/300x150", title: "Satisfactory", price: "$9.09 USD", discount: "30%", oldPrice: "$12.99" },
-  { image: "https://via.placeholder.com/300x150", title: "Cataclismo", price: "$9.74 USD", discount: "35%", oldPrice: "$14.99" },
-  { image: "https://via.placeholder.com/300x150", title: "Celeste", price: "$4.99 USD" },
-  { image: "https://via.placeholder.com/300x150", title: "Hollow Knight", price: "$7.49 USD" },
-  { image: "https://via.placeholder.com/300x150", title: "Dead Cells", price: "$9.99 USD", discount: "20%", oldPrice: "$12.49" },
-  { image: "https://via.placeholder.com/300x150", title: "Terraria", price: "$3.99 USD" },
+  { image: "https://img.freepik.com/free-photo/view-3d-video-game-controller_23-2151005788.jpg?t=st=1743154935~exp=1743158535~hmac=e90d8e4bfe13243669cafb6de53268f0b5666ab0c11e52e7af640088448761aa&w=1380", title: "iRacing", price: "$5.49 USD" },
+  { image: "https://img.freepik.com/free-photo/view-3d-video-game-controller_23-2151005788.jpg?t=st=1743154935~exp=1743158535~hmac=e90d8e4bfe13243669cafb6de53268f0b5666ab0c11e52e7af640088448761aa&w=1380", title: "Stardew Valley", price: "$6.99 USD" },
+  { image: "https://img.freepik.com/free-photo/view-3d-video-game-controller_23-2151005788.jpg?t=st=1743154935~exp=1743158535~hmac=e90d8e4bfe13243669cafb6de53268f0b5666ab0c11e52e7af640088448761aa&w=1380", title: "Satisfactory", price: "$9.09 USD", discount: "30%", oldPrice: "$12.99" },
+  { image: "https://img.freepik.com/free-photo/view-3d-video-game-controller_23-2151005788.jpg?t=st=1743154935~exp=1743158535~hmac=e90d8e4bfe13243669cafb6de53268f0b5666ab0c11e52e7af640088448761aa&w=1380", title: "Cataclismo", price: "$9.74 USD", discount: "35%", oldPrice: "$14.99" },
+  { image: "https://img.freepik.com/free-photo/view-3d-video-game-controller_23-2151005788.jpg?t=st=1743154935~exp=1743158535~hmac=e90d8e4bfe13243669cafb6de53268f0b5666ab0c11e52e7af640088448761aa&w=1380", title: "Celeste", price: "$4.99 USD" },
+  { image: "https://img.freepik.com/free-photo/view-3d-video-game-controller_23-2151005788.jpg?t=st=1743154935~exp=1743158535~hmac=e90d8e4bfe13243669cafb6de53268f0b5666ab0c11e52e7af640088448761aa&w=1380", title: "Hollow Knight", price: "$7.49 USD" },
+  { image: "https://img.freepik.com/free-photo/view-3d-video-game-controller_23-2151005788.jpg?t=st=1743154935~exp=1743158535~hmac=e90d8e4bfe13243669cafb6de53268f0b5666ab0c11e52e7af640088448761aa&w=1380", title: "Dead Cells", price: "$9.99 USD", discount: "20%", oldPrice: "$12.49" },
+  { image: "https://img.freepik.com/free-photo/view-3d-video-game-controller_23-2151005788.jpg?t=st=1743154935~exp=1743158535~hmac=e90d8e4bfe13243669cafb6de53268f0b5666ab0c11e52e7af640088448761aa&w=1380", title: "Terraria", price: "$3.99 USD" },
 ];
 
 export default function UnderPrice() {

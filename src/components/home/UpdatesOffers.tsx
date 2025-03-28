@@ -10,9 +10,9 @@ const UpdatesOffers = () => {
             {Array(12)
               .fill(0)
               .map((_, index) => (
-                <div key={index} className="w-16 h-16">
+                <div key={index} className="w-28 h-16">
                   <img
-                    src="/path-to-your-image.jpg"
+                    src="https://img.freepik.com/free-photo/view-3d-video-game-controller_23-2151005788.jpg?t=st=1743154935~exp=1743158535~hmac=e90d8e4bfe13243669cafb6de53268f0b5666ab0c11e52e7af640088448761aa&w=1380"
                     alt="Game Thumbnail"
                     className="w-full h-full object-cover"
                   />
@@ -30,9 +30,9 @@ const UpdatesOffers = () => {
 
         {/* Right Section - Assassin's Creed Shadows */}
         <div className="relative bg-red-700 p-4 flex flex-col items-center w-full sm:w-1/2">
-          <div className="w-full h-48">
+          <div className="w-full h-60">
             <img
-              src="/path-to-assassins-creed-image.jpg"
+              src="https://img.freepik.com/free-photo/view-3d-video-game-controller_23-2151005788.jpg?t=st=1743154935~exp=1743158535~hmac=e90d8e4bfe13243669cafb6de53268f0b5666ab0c11e52e7af640088448761aa&w=1380"
               alt="Assassin's Creed Shadows"
               className="w-full h-full object-cover"
             />

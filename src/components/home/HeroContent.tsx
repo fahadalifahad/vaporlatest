@@ -10,7 +10,7 @@ const slides = [
     price: "$39.99",
     oldPrice: "$59.99",
     buttonText: "Buy Now",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1rcs_XvkjaUyusP18Mw2Gm0qKenbA411a9Q&s", // Dummy Image URL
+    image: "https://img.freepik.com/free-photo/view-3d-video-game-controller_23-2151005788.jpg?t=st=1743154935~exp=1743158535~hmac=e90d8e4bfe13243669cafb6de53268f0b5666ab0c11e52e7af640088448761aa&w=1380", // Dummy Image URL
   },
   {
     title: "CyberQuest",
@@ -20,7 +20,7 @@ const slides = [
     price: "$29.99",
     oldPrice: "$59.99",
     buttonText: "Buy Now",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1rcs_XvkjaUyusP18Mw2Gm0qKenbA411a9Q&s", // Dummy Image URL
+    image: "https://img.freepik.com/free-photo/3d-workstation-with-computer-peripheral-devices_23-2150714209.jpg?t=st=1743154982~exp=1743158582~hmac=55c9c190d5fe300f6a2cc188afeaa8fe07e084c2b3102d66e00bf5671be45df6&w=826", // Dummy Image URL
   },
   {
     title: "Galactic Wars",
@@ -30,7 +30,7 @@ const slides = [
     price: "$49.99",
     oldPrice: "$79.99",
     buttonText: "Buy Now",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1rcs_XvkjaUyusP18Mw2Gm0qKenbA411a9Q&s", // Dummy Image URL
+    image: "https://img.freepik.com/free-photo/view-illuminated-neon-gaming-keyboard-setup-controller_23-2149529367.jpg?t=st=1743154970~exp=1743158570~hmac=f9750a5cb09938488dce23404881c55d0415baa549b80bc9a3dd1eef443baba2&w=1380", // Dummy Image URL
   },
 ];
 

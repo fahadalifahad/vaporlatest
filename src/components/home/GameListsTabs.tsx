@@ -7,7 +7,7 @@ const gameCategories: Data = {
       id: 1,
       title: "Atelier Yumia",
       description: "Exploration, Collectathon, Hack and Slash, JRPG",
-      image: "https://via.placeholder.com/80",
+      image: "https://img.freepik.com/free-photo/view-3d-video-game-controller_23-2151005788.jpg?t=st=1743154935~exp=1743158535~hmac=e90d8e4bfe13243669cafb6de53268f0b5666ab0c11e52e7af640088448761aa&w=1380",
       os: [<FaWindows key="win" />, <FaApple key="mac" />],
       releaseDate: "21 Mar, 2025",
       oldPrice: "$58.29",
@@ -19,7 +19,7 @@ const gameCategories: Data = {
       id: 2,
       title: "BLEACH Rebirth of Souls",
       description: "Action, Anime, 3D Fighter, 3D",
-      image: "https://via.placeholder.com/80",
+      image: "https://img.freepik.com/free-photo/view-3d-video-game-controller_23-2151005788.jpg?t=st=1743154935~exp=1743158535~hmac=e90d8e4bfe13243669cafb6de53268f0b5666ab0c11e52e7af640088448761aa&w=1380",
       os: [<FaWindows key="win" />, <FaLinux key="linux" />],
       releaseDate: "21 Mar, 2025",
       oldPrice: "$59.99",
@@ -33,7 +33,7 @@ const gameCategories: Data = {
       id: 3,
       title: "Mudborne: Frog Management Sim",
       description: "Casual, Simulation, Education, Farming Sim",
-      image: "https://via.placeholder.com/80",
+      image: "https://img.freepik.com/free-photo/view-3d-video-game-controller_23-2151005788.jpg?t=st=1743154935~exp=1743158535~hmac=e90d8e4bfe13243669cafb6de53268f0b5666ab0c11e52e7af640088448761aa&w=1380",
       os: [<FaWindows key="win" />],
       releaseDate: "20 Mar, 2025",
       oldPrice: "$4.49",
@@ -47,7 +47,7 @@ const gameCategories: Data = {
       id: 4,
       title: "Atelier Yumia",
       description: "Exploration, Collectathon, Hack and Slash, JRPG",
-      image: "https://via.placeholder.com/80",
+      image: "https://img.freepik.com/free-photo/view-3d-video-game-controller_23-2151005788.jpg?t=st=1743154935~exp=1743158535~hmac=e90d8e4bfe13243669cafb6de53268f0b5666ab0c11e52e7af640088448761aa&w=1380",
       os: [<FaWindows key="win" />, <FaApple key="mac" />],
       releaseDate: "21 Mar, 2025",
       tags: ["Action", "Anime", "3D"],
@@ -58,7 +58,7 @@ const gameCategories: Data = {
       id: 5,
       title: "Atelier Yumia",
       description: "Exploration, Collectathon, Hack and Slash, JRPG",
-      image: "https://via.placeholder.com/80",
+      image: "https://img.freepik.com/free-photo/view-3d-video-game-controller_23-2151005788.jpg?t=st=1743154935~exp=1743158535~hmac=e90d8e4bfe13243669cafb6de53268f0b5666ab0c11e52e7af640088448761aa&w=1380",
       os: [<FaWindows key="win" />, <FaApple key="mac" />],
       releaseDate: "21 Mar, 2025",
       oldPrice: "$58.29",
@@ -72,7 +72,7 @@ const gameCategories: Data = {
       id: 6,
       title: "Atelier Yumia",
       description: "Exploration, Collectathon, Hack and Slash, JRPG",
-      image: "https://via.placeholder.com/80",
+      image: "https://img.freepik.com/free-photo/view-3d-video-game-controller_23-2151005788.jpg?t=st=1743154935~exp=1743158535~hmac=e90d8e4bfe13243669cafb6de53268f0b5666ab0c11e52e7af640088448761aa&w=1380",
       os: [<FaWindows key="win" />, <FaApple key="mac" />],
       releaseDate: "21 Mar, 2025",
       newPrice: "Free",
@@ -91,10 +91,10 @@ interface Data {
 }
 
 const dummyScreenshots = [
-  "https://media.istockphoto.com/id/1317323736/photo/a-view-up-into-the-trees-direction-sky.jpg?s=612x612&w=0&k=20&c=i4HYO7xhao7CkGy7Zc_8XSNX_iqG0vAwNsrH1ERmw2Q=",
-  "https://media.istockphoto.com/id/1317323736/photo/a-view-up-into-the-trees-direction-sky.jpg?s=612x612&w=0&k=20&c=i4HYO7xhao7CkGy7Zc_8XSNX_iqG0vAwNsrH1ERmw2Q=",
-  "https://media.istockphoto.com/id/1317323736/photo/a-view-up-into-the-trees-direction-sky.jpg?s=612x612&w=0&k=20&c=i4HYO7xhao7CkGy7Zc_8XSNX_iqG0vAwNsrH1ERmw2Q=",
-  "https://media.istockphoto.com/id/1317323736/photo/a-view-up-into-the-trees-direction-sky.jpg?s=612x612&w=0&k=20&c=i4HYO7xhao7CkGy7Zc_8XSNX_iqG0vAwNsrH1ERmw2Q=",
+  "https://img.freepik.com/free-photo/view-3d-video-game-controller_23-2151005788.jpg?t=st=1743154935~exp=1743158535~hmac=e90d8e4bfe13243669cafb6de53268f0b5666ab0c11e52e7af640088448761aa&w=1380",
+  "https://img.freepik.com/free-photo/view-3d-video-game-controller_23-2151005788.jpg?t=st=1743154935~exp=1743158535~hmac=e90d8e4bfe13243669cafb6de53268f0b5666ab0c11e52e7af640088448761aa&w=1380",
+  "https://img.freepik.com/free-photo/view-3d-video-game-controller_23-2151005788.jpg?t=st=1743154935~exp=1743158535~hmac=e90d8e4bfe13243669cafb6de53268f0b5666ab0c11e52e7af640088448761aa&w=1380",
+  "https://img.freepik.com/free-photo/view-3d-video-game-controller_23-2151005788.jpg?t=st=1743154935~exp=1743158535~hmac=e90d8e4bfe13243669cafb6de53268f0b5666ab0c11e52e7af640088448761aa&w=1380",
 ];
 
 const GameListTabs = () => {

@@ -4,22 +4,22 @@ const offers = [
   {
     discount: "50%",
     image:
-      "https://t3.ftcdn.net/jpg/00/91/07/82/360_F_91078252_i7cx2uJzDzgoJGDdUAHtVAcpjugVauX9.jpg", // Dummy Image
+      "https://img.freepik.com/free-photo/front-view-family-playing-videogame_23-2150573819.jpg?t=st=1743155081~exp=1743158681~hmac=92138f9328949641f3ce7793966a8fd35455d69224b8221abe095e2bc0aaf3a8&w=1380", // Dummy Image
   },
   {
     discount: "50%",
     image:
-      "https://t3.ftcdn.net/jpg/00/91/07/82/360_F_91078252_i7cx2uJzDzgoJGDdUAHtVAcpjugVauX9.jpg", // Dummy Image
+      "https://img.freepik.com/free-photo/epic-gamer-room-setup_23-2151948240.jpg?t=st=1743155141~exp=1743158741~hmac=57747d206ec4441172cb411d65d93dd5de7b1e53baf122dfa841c61bbfcae879&w=1380", // Dummy Image
   },
   {
     discount: "50%",
     image:
-      "https://t3.ftcdn.net/jpg/00/91/07/82/360_F_91078252_i7cx2uJzDzgoJGDdUAHtVAcpjugVauX9.jpg", // Dummy Image
+      "https://img.freepik.com/free-photo/neon-gamer-setup_23-2151948243.jpg?t=st=1743155165~exp=1743158765~hmac=e226b43cbc03d950c3042d6bacb8295bd042e769582d61d50f149733ac1ccead&w=740", // Dummy Image
   },
   {
     discount: "50%",
     image:
-      "https://t3.ftcdn.net/jpg/00/91/07/82/360_F_91078252_i7cx2uJzDzgoJGDdUAHtVAcpjugVauX9.jpg", // Dummy Image
+      "https://img.freepik.com/free-photo/neon-gamer-setup_23-2151948243.jpg?t=st=1743155165~exp=1743158765~hmac=e226b43cbc03d950c3042d6bacb8295bd042e769582d61d50f149733ac1ccead&w=740", // Dummy Image
   },
 ];
 
